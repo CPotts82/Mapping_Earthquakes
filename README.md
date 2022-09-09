@@ -1,1 +1,7 @@
 # Mapping_Earthquakes
+## Overview
+The objective of this project was to create insightful and interactive maps that showcase the magnitudes and locations of earthquakes from all over the world from the past 7 days. These maps are informative, engaging and easy to use. The data for these maps comes from https://earthquake.usgs.gov website and are updated each time the browser is opened.  There are circle markers on the 3 different map types, these markers are color coded by magnitude as well as sized by intensity of magnitude. There are popup markers associated with each circle that show the actual magnitude and location of the earthquake when clicked. There are also fault lines plotted on the map to display relation between earthquakes and location of tectonic plates. The maps show that there is more earthquake activity near the fault lines. 
+The maps show three different base layers. The user can toggle between the streets layer, satellite layer and dark layer. The user has the option to choose which base map layer works best for what they are searching. The user also has the ability to utilize all three overlays: earthquakes in the past 7 days, tectonic plate lines and major earthquakes in the past 7 days. The user can toggle all three of these map overlays on at the same time or use them individually or combined as desired. 
+
+## Resources
+Javascript, HTML, D3, Leaflet, Mapbox
